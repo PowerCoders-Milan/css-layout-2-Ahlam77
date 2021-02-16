@@ -12,21 +12,27 @@
     background-image: url(image/see.jpg);
     background-size: cover;
     background-position:center ;
+    
 
 }
 .navbar{
    
     display: flex;
-    align-items: center;
+align-items: center;
+    
 }
 .logo{
     width: 250px;
     cursor: pointer;
     
+    
 }
 nav{
 flex: 1;
 text-align: right;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 nav ul  {
     list-style-type: none;
@@ -38,10 +44,7 @@ nav ul li {
     margin-right: 20px;
 }
 
-a {
-    text-decoration: non;
-    text-align: right;
-}
+
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
